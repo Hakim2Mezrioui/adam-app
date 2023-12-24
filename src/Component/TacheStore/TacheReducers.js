@@ -3,7 +3,7 @@ const initialState = {
 }
 
 export const TacheReducers = (state = initialState, actions) => {
-    switch(action.type) {
+    switch(actions.type) {
         case "append":
             return {
                 ...state,
