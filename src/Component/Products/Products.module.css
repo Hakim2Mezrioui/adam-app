@@ -1,0 +1,6 @@
+.products {
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+    margin-block: 1em;
+}

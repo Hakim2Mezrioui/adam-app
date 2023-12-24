@@ -1,0 +1,63 @@
+.btn {
+    padding: 1em 4em; /* ky kabar الحشو */
+    margin: 50px; /* space مساحة */
+    margin-top: 100px; /* tla3 lfo9 فوق*/
+    margin-bottom: 100px; /* hbat lta7t تحت */
+    margin-left: 100px; /* يسار  */
+    margin-right: 100px; /* يمين */
+}
+
+.btn2 {
+    /* margin: 110px 80px ; */
+    margin: 20px 40px 60px 80px;/* top right bottom left*/
+    background-color: rgba(219, 52, 52, 0.8);
+    padding: 1em;
+    border: none;
+}
+
+.paragraph {    
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.para {
+    text-align: justify;
+    width: 20em;
+    height: 5em;
+    background-color: lightslategray;
+    background-image: url("/public/logo192.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(90deg ,red 20%, blue, green);
+    /* background: radial-gradient(red, green); */
+    /* filter: blur(10); */
+    padding: 1em 2em;
+    /* color: white; */
+    /* border: 10px solid rgb(59, 68, 76); */
+    /* border: 10px dotted rgb(59, 68, 76); */
+    border: 10px double rgb(59, 68, 76);
+    border-radius: .5em; /* الحواف */
+    overflow: hidden;
+}
+
+.ball {
+    width: 5em;
+    height: 5em;
+    background-color: rgb(58, 148, 173);
+    border-radius: 50%;
+}
+
+.ball:hover {
+    background-color: red;
+}
+
+.fc:focus {
+    background-color: green;
+}
+
+.fc {
+    box-shadow: 1em 3em 10px 10px;
+}

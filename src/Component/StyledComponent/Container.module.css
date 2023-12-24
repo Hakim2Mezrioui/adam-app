@@ -1,0 +1,31 @@
+.btnStyled {
+  background: #009036;
+  color: red;
+  border: none;
+  padding: 1em 2em;
+}
+
+.btnStyled:hover {
+  background-color: #009f3d;
+}
+
+.div {
+  /* animation: ProgressBarAnime 1s ease ; */
+  animation-name: ProgressBarAnime;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes ProgressBarAnime {
+  0% {
+    width: 0;
+    background: red;
+  }
+  100% {
+    width: 100%;
+    background: green;
+  }
+}
