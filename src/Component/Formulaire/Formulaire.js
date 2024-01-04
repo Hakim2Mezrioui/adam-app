@@ -27,7 +27,8 @@ function Formulaire() {
         </div>
         <div>
           <label htmlFor="prenom">prenom</label>
-          <input onBlur={handleChange} id="prenom" name="prenom" />
+          {/* <input onBlur={handleChange} id="prenom" name="prenom" /> */}
+          <input onBlur={() => handleChange(e)} id="prenom" name="prenom" />
         </div>
         <div>
           <label htmlFor="dateDeNaissance">dateDeNaissance</label>

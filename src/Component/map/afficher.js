@@ -19,4 +19,4 @@ class afficher extends Component {
     }
 }
 
-export default afficher 
+export default afficher;
