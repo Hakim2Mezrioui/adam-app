@@ -8,13 +8,13 @@ function CycleDeVie() {
 
     // useEffect(function de callback, les dependances sous form list)
 
-    useEffect(function() { // component did mount && componenet did update
-        console.log("created");
-    });
+    // useEffect(function() { // component did mount && componenet did update
+    //     console.log("created");
+    // });
 
-    useEffect(function() { // component did mount 
-        console.log("created");
-    }, [])
+    // useEffect(function() { // component did mount 
+    //     console.log("created");
+    // }, [])
 
     useEffect(function() {
         console.log("count updated");
