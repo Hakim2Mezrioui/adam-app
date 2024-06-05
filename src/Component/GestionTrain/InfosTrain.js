@@ -29,7 +29,7 @@ const InfoTrain = ({ idTrain }) => {
       </span>
       <span>
         <label>ville terminus</label>
-        <input value={info && info.villes && info.villes.length > 0 ? info.villes[info.villes.length - 1].nomV : ""} disabled />
+        <input value={info && info.villes && info.villes.length > 0 ? info.villes[1].nomV : ""} disabled />
       </span>
     </div>
   );

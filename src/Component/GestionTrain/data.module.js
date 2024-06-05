@@ -4,8 +4,8 @@ export const trains = [
     nom: "Buraq",
     villes: [
       { nomV: "fes", ordreP: 10 },
-      { codeP: "meknes", ordreP: 20 },
-      { codeP: "Kmisset", ordreP: 30 },
+      { nomV: "meknes", ordreP: 20 },
+      { nomV: "Kmisset", ordreP: 30 },
     ],
   },
   { id: "t2", nom: "Gazel", villes: [] },
