@@ -5,6 +5,7 @@ import AjouterLivre from "./Component/revisionGeneral2/Bibliotheque/AjouterLivre
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AppEff from "./Component/revisionEFF/app_eff";
 import AppTrain from "./Component/GestionTrain/AppTrain";
+import AppEmp from "./Component/GestionEmplyes/appEmp";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
     //   </Provider>
     // </BrowserRouter>
     // <AppEff />
-    <AppTrain />
+    // <AppTrain />
+    <AppEmp />
   );
 }
 
